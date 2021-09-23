@@ -8,6 +8,7 @@ html, body {
     font-family: 'Red Hat Display', sans-serif;
     font-size: 18px;
     line-height: 24px;
+    
 }
 .header{
     width: 100%;
@@ -34,6 +35,7 @@ h1{
     background-color: #fafafa;
     display: flex;
     flex-direction: row;
+    overflow: hidden;
 }
 .box {
     text-align: center;
@@ -89,7 +91,12 @@ h1{
     margin-right: -4%;
     
 }
-.box3 > div img{
+/* .box3 > div img{
+    border-radius: 50%;
+    width: 70%;
+    height: auto;
+} */
+.box3-img{
     border-radius: 50%;
     width: 70%;
     height: auto;
@@ -129,6 +136,8 @@ h1{
     margin: 5px;
     font-size: 16px;
     font-weight: 900;
+    font-family:'Red Hat Display', sans-serif;
+    ;
 }
 .but1{
     background-color: #4D96A9;
@@ -147,9 +156,6 @@ h1{
 .span-but{
     color:#8FE3F9;
 }
-/* .span-but:hover{
-    color: #4D96A9;
-} */
 
 /* CARD-S */
 
@@ -183,9 +189,12 @@ h1{
      height: 70px;
  }
  .circle{
+     width: 70px;
+     height: 70px;
      border-radius: 50%;
+     text-align: center;
      border: 1px solid #87879D;
-     padding: 20px;
+     padding: 23px;
  }
  .zero-one{
      color: #87879D;
@@ -232,6 +241,9 @@ h1{
 }
 .circle-footer{
     border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    text-align: center;
     border: 1px solid #87879D;
     padding: 20px;
     background-color: #fff;
@@ -259,9 +271,10 @@ h1{
     color: #fff;
     
  }
- .img-footer > div {
-     padding: 115px 0 105px 0;
-     flex-basis: 350px;     
+
+ .img-footer-picture{
+    padding: 115px 0 105px 0;
+    flex-basis: 350px;  
  }
 
  .img-footer > div:nth-child(3){
@@ -276,6 +289,8 @@ h1{
      color: #fff; 
      font-size: 16px;
      font-weight: 900;
+     font-family:'Red Hat Display', sans-serif;
+
  }
  .span-footer {
      color: #D9B8FF;
